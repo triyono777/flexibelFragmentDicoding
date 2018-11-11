@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    tools:context=".OptionDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_margin="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ide_untuk_membuat_android_apa_yang_yang_kamu_sukai" />
+
+    <RadioGroup
+        android:id="@+id/rg_pilihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_react"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/react_native" />
+
+        <RadioButton
+            android:id="@+id/rb_androidstudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_studio" />
+
+        <RadioButton
+            android:id="@+id/rb_fluter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flutter" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin">
+
+        <Button
+            android:id="@+id/btn_pilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pilih" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/close" />
+    </LinearLayout>
+</LinearLayout>

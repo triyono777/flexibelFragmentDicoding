@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FlexibleFragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">HOME FRAGMENT</string>
+    <string name="halaman_kategori">HALAMAN KATEGORI</string>
+    <string name="detail_kategori">detail kategori</string>
+    <string name="kategori_name">kategori name</string>
+    <string name="menampilkan_dialog">menampilkan dialog</string>
+    <string name="kategori_deskripsi">kategori iniDeskripsi</string>
+    <string name="ide_untuk_membuat_android_apa_yang_yang_kamu_sukai">IDE untuk membuat Android apa yang yang kamu sukai?</string>
+    <string name="react_native">react native</string>
+    <string name="flutter">flutter</string>
+    <string name="android_studio">android studio</string>
+    <string name="pilih">pilih</string>
+    <string name="close">close</string>
+</resources>
